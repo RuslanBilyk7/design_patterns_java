@@ -10,16 +10,16 @@ import java.io.ObjectOutputStream;
 
 public class Test {
 
-	public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
+	public static void main(String[] args) throws IOException, ClassNotFoundException {
 
 		DateUtil dateUtil1 = DateUtil.getInstance();
 		ObjectOutputStream oos = new ObjectOutputStream(
-				new FileOutputStream(new File("/Users/bharaththippireddy/Documents/singleton/dateUtil.ser")));
+				new FileOutputStream("/C:/Users/RuslanBilyk/Documents/1/1.txt"));
 		oos.writeObject(dateUtil1);
 
-		DateUtil dateUtil2 = null;
+		DateUtil dateUtil2;
 		ObjectInputStream ois = new ObjectInputStream(
-				new FileInputStream(new File("/Users/bharaththippireddy/Documents/singleton/dateUtil.ser")));
+				new FileInputStream("/C:/Users/RuslanBilyk/Documents/1/1.txt"));
 		dateUtil2 = (DateUtil) ois.readObject();
 		
 		oos.close();
