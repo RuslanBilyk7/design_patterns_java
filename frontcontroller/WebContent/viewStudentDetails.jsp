@@ -7,7 +7,7 @@
 <title>Student Details</title>
 </head>
 <body>
-<jsp:useBean id="studentDetails" type="com.bharath.patterns.frontcontroller.StudentVO" scope="request"/>
+<jsp:useBean id="studentDetails" type="com.patterns.frontcontroller.StudentVO" scope="request"/>
 Id: <jsp:getProperty property="id" name="studentDetails"/>
 Name: <jsp:getProperty property="name" name="studentDetails"/>
 </body>
