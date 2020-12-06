@@ -1,0 +1,12 @@
+
+e
+java:S2095"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(®Ééš
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ò¯Ò²üÿÿÿÿ
+f
+java:S2095"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(‹ûà«
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ûÚ¢½
+“
+java:S1130"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(ÞÒ‡ãüÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ÚÄÍÚøÿÿÿÿ
