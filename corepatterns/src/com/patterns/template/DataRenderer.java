@@ -1,0 +1,12 @@
+package com.patterns.template;
+
+public abstract class DataRenderer {
+	public void render(){
+		final String data = readData();
+		final String processedData = processData(data);
+		System.out.println(processedData);
+	}
+	public abstract String readData();
+	public  abstract String processData(String data);
+
+}

@@ -1,13 +1,17 @@
 package com.patterns.abstractfactory;
 
-public class DaoFactoryProducer {
+class DaoFactoryProducer {
 
-	public static DaoAbstractFactory produce(String factoryType) {
+	private DaoFactoryProducer() {
+	}
+
+	public static DaoAbstractFactory produce(final String factoryType) {
 		DaoAbstractFactory daf = null;
 
 		if (factoryType.equals("xml")) {
 			daf = new XMLDaoFactory();
-		} else if (factoryType.equals("db")) {
+		}
+		else if (factoryType.equals("db")) {
 			daf = new DBDaoFactory();
 		}
 
