@@ -6,5 +6,4 @@ public class WeatherFinderImpl implements WeatherFinder {
 	public int find(String city) {
 		return 33;
 	}
-
 }
