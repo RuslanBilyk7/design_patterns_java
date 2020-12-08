@@ -14,5 +14,4 @@ public class Person {
 		remoteControl.setCommand(offCommand);
 		remoteControl.pressBtutton();
 	}
-
 }
